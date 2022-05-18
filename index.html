@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home Work</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="wrapper">
+        <div class="form">
+            <form>
+                <label for="user-login"></label>
+                <input type="text" placeholder="Enter login" id="user-login" name="user-login">
+                <button id="btn-get">Get</button>
+            </form>
+        </div>
+        <div class="image"></div>
+        <div class="user-info ">
+            <div class="user-details hidden">
+                <h2>User Info</h2>
+                <ul>
+                    <li id="name"></li>
+                    <li id="id"></li>
+                    <li id="login"></li>
+                </ul>
+                <button data-button-type="clicked">Close</button>
+            </div>
+            <div class="error-message hidden">
+                <h2>ERROR</h2>
+                <div id="message"></div>
+                <div id="documentation_url"></div>
+                <button data-button-type="clicked" >Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    </body>
+</html>
